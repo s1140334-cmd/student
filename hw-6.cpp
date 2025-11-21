@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "請輸入你的年齡:請輸入你的年齡:" << endl;    
+    int age;
+    cin >> age;
+    if (age >= 18) {
+        cout <<"18歲成年，可以看 pxxxx網站" << endl;
+    }
+    if (age < 18) {
+        cout <<"未成年，請好好讀書" << endl;
+    }
+    return 0;
+}
